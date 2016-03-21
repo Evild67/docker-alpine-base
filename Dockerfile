@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:edge
 MAINTAINER Dominique HAAS <contact@dominique-haas.fr>
 
 # Add commonly used packages
