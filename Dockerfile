@@ -5,7 +5,7 @@ MAINTAINER Dominique HAAS <contact@dominique-haas.fr>
 RUN apk --no-cache add bind-tools
 
 # Add s6-overlay
-ENV S6_OVERLAY_VERSION=v1.17.1.1 GODNSMASQ_VERSION=0.9.8
+ENV S6_OVERLAY_VERSION=v1.17.2.0 GODNSMASQ_VERSION=1.0.5
 
 RUN apk --no-cache add curl && \
     curl -sSL https://github.com/just-containers/s6-overlay/releases/download/${S6_OVERLAY_VERSION}/s6-overlay-amd64.tar.gz \
