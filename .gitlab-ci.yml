@@ -14,7 +14,7 @@ before_script:
 test_job:
   stage: test
   script:
-    - ci/mailtrain_test
+    - ci/base_test
 
 tweet_succeed_job:
   variables:
@@ -25,7 +25,7 @@ tweet_succeed_job:
     - triggers
     - master
   script:
-    - ci/mailtrain_tweet
+    - ci/base_tweet
 
 tweet_failed_job:
   variables:
@@ -36,7 +36,7 @@ tweet_failed_job:
     - triggers
     - master
   script:
-    - ci/mailtrain_tweet
+    - ci/base_tweet
   when: on_failure
 
 deploy_job:
@@ -46,4 +46,4 @@ deploy_job:
     - triggers
     - master
   script:
-    - ci/mailtrain_deploy
+    - ci/base_deploy
