@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+
+docker build -t evild/alpine-base:latest .
+docker inspect evild/alpine-base:latest
+
+
+docker login -u $DOCKERHUB_LOGIN -p $DOCKERHUB_PASSWORD
+docker push evild/alpine-base:latest
