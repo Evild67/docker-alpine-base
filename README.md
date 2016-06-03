@@ -9,7 +9,8 @@ This image is based on [Alpine](https://hub.docker.com/_/alpine/) and includes [
 ## Version
 
 - `latest` [(Dockerfile)](https://github.com/Evild67/docker-alpine-base/blob/master/Dockerfile)
-- `2.0` [(Dockerfile)](https://github.com/Evild67/docker-alpine-base/blob/10c778432409a0f2b0c02d87de153a693f31aadc/Dockerfile)
+- `3.0`[(Dockerfile)](https://github.com/Evild67/docker-alpine-base/blob/3e2a3de6f428f91264d3edff108502c1b960f0f8/Dockerfile) (Alpine 3.4)
+- `2.0` [(Dockerfile)](https://github.com/Evild67/docker-alpine-base/blob/10c778432409a0f2b0c02d87de153a693f31aadc/Dockerfile) (Alpine 3.3)
 
 
 ## What is Alpine Linux ?
